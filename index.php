@@ -32,6 +32,9 @@
 
 
 
+
+
+
 		
 
 
@@ -98,10 +101,53 @@
 
 
 	 ?>
-
+<br>
 </body>
 </html>
 
+<?php 
+
+	class User{
+
+		public $username;
+		private $email;
+
+		public function __construct($uname,$emaill){
+					$this->username=$uname;
+					$this->email=$emaill;
+					}
+		
+		public function getEmail(){
+
+			return $this->email;
+		}			
+
+		public function setEmail($email2){
+			if(strpos($email2,'@')>-1){
+				$this->email=$email2;
+			}
+
+		}
+
+		
+	}	
+
+
+
+	    $sup=new User('bipul','bipul@xyz'.'<br>');
+		$sup1=new User('bro','bro@xyz'.'<br>');
+
+		$sup->setEmail('binit@gmail.com');
+
+		echo $sup->username. '<br>';
+
+		echo $sup1->getEmail();
+
+
+
+
+
+ ?>
 
 
 
