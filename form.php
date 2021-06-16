@@ -1,36 +1,60 @@
-<?php  ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>FORM</title>
+	<title>ABOUT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
+	<div class="cup">
+	<h1>FORM</h1>
+</div>
+
+	<div class="not">
+		<form>
+			<fieldset>
+				<legend>fill in the gaps</legend>
+				
+			<label for="fname">First name</label>
+			<input type="text" name="firstname" id="fname" placeholder="first name">
+			<label for="lname">Last name</label>
+			<input type="text" name="lastname" id="lname" placeholder="Last name">
+
+			<label for="age">Age</label>
+			<input type="number" name="age" id="age" placeholder="Age" min="0" max="9">
+<br>
+			<label>country</label>
+			<select>
+				<option>nepal</option>
+				<option>india</option>
+				<option>china</option>
+			</select>
+
+ 			<label for="gender">Gender</label>
+ 			<input type="radio" name="male" id="gender">male
+ 			<input type="radio" name="male" id="gender">female
+ 			<input type="radio" name="male" id="gender">other
+<br>
+			
+			<ul>
+ 			<label>interests</label>
+ 			<li><input type="checkbox" name="inerest">dancing</li>
+ 			<li><input type="checkbox" name="inerest">singing</li>
+ 			<li><input type="checkbox" name="inerest">reading</li>
+ 			</ul>
+<br>
+ 			<label>messege:</label>
+ 			<textarea></textarea>
+ 			<br>
+ 			<input type="submit" name="submit">
+
+
+
+			</fieldset>
+
+		</form>
+
+
+	</div>
+ 
 </body>
 </html>
-
-<?php 
-
-class User{
-
-public $username;
-public $email;
-
-public function __construct($uname,$emaill){
-	$this->username=$uname;
-	$this->email=$emaill;
-
-}
-
-$sup= new User('bipul','bipul@xyz');
-$sup1= new User('bro','bro@xyz');
-
-echo $sup->username;
-
-}
-
-
-
- ?>

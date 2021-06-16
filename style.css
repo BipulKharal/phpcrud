@@ -1,0 +1,31 @@
+.not{
+	margin:10px;
+	padding: 10px;
+	float: left;
+	color: black;
+
+}
+
+.not label{
+	padding: 8px;
+	/*color: blue;*/
+
+}
+
+ input[type=text],input[type=number], select, textarea{
+ 	padding: 10px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	border: 3px solid grey;
+ }
+
+ input[type=submit]{
+ 	padding: 5px;
+ 	margin: 20px;
+
+
+ }
+
+ h1{
+ 	margin:50px;
+ }
