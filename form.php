@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ABOUT</title>
+	<title>FORM</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -33,6 +33,9 @@
  			<input type="radio" name="male" id="gender">male
  			<input type="radio" name="male" id="gender">female
  			<input type="radio" name="male" id="gender">other
+
+ 			<label for="">Contact no.</label>
+ 			<input type="number" name="phone" id="Contact">
 <br>
 			
 			<ul>
