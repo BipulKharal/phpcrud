@@ -10,7 +10,7 @@
 </div>
 
 	<div class="not">
-		<form>
+		<form action="register.php" method="post">
 			<fieldset>
 				<legend>fill in the gaps</legend>
 				
@@ -20,7 +20,7 @@
 			<input type="text" name="lastname" id="lname" placeholder="Last name">
 
 			<label for="age">Age</label>
-			<input type="number" name="age" id="age" placeholder="Age" min="0" max="9">
+			<input type="number" name="age" id="age" placeholder="Age" min="0" max="100">
 <br>
 			<label>country</label>
 			<select>
@@ -37,9 +37,9 @@
 			
 			<ul>
  			<label>interests</label>
- 			<li><input type="checkbox" name="inerest">dancing</li>
- 			<li><input type="checkbox" name="inerest">singing</li>
- 			<li><input type="checkbox" name="inerest">reading</li>
+ 			<li><input type="checkbox" name="inerest[]">dancing</li>
+ 			<li><input type="checkbox" name="inerest[]">singing</li>
+ 			<li><input type="checkbox" name="inerest[]">reading</li>
  			</ul>
 <br>
  			<label>messege:</label>
