@@ -9,6 +9,7 @@
 .not label{
 	padding: 8px;
 	/*color: blue;*/
+	font-weight: bolder;
 
 }
 
@@ -16,7 +17,7 @@
  	padding: 10px;
  	margin-top: 10px;
  	margin-bottom: 10px;
- 	border: 3px solid blue;
+ 	border: 3px solid grey;
  }
 
  input[type=submit]{
@@ -27,5 +28,5 @@
  }
 
  h1{
- 	margin:50px;
+ 	margin:10px;
  }
